@@ -1,0 +1,74 @@
+<!-- ======================================================
+  The root element: students
+
+  The students containter (root) must contain one or more ID
+  numbers/elements.
+  ======================================================-->
+<!ELEMENT students (id)+>
+
+<!-- ======================================================
+  The id container element must contain erollement-info and
+  contacts info.
+  ======================================================-->
+<!ELEMENT id (enrollment-info, contacts)>
+
+<!-- ======================================================
+  The erollment-info container element must contain 
+  grade-level, gpa, one or more majors, enrollement-status,
+  and an advisor.
+  ======================================================-->
+<!ELEMENT enrollment-info (grade-level, gpa, majors+, enrollment-status, advisor)>
+
+<!ELEMENT grade-level (#PCDATA)>
+<!ELEMENT gpa (#PCDATA)>
+<!ELEMENT advisor (#PCDATA)>
+
+<!-- ======================================================
+  The majors container element must contain a major or a
+  major and minor.
+  ======================================================-->
+<!ELEMENT majors (major, minor)>
+
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT minor (#PCDATA)>
+
+<!-- ======================================================
+  The enrollment-status container must contain the
+  time-status of a student and various related dates.
+  ======================================================-->
+<!ELEMENT enrollment-status (time-status, dates)>
+
+<!ELEMENT time-status (#PCDATA)>
+
+<!-- ======================================================
+  The dates container must include the enrollment date and
+  the expected graduation-date.
+  ======================================================-->
+<!ELEMENT dates (enrollment-date, graduation-date)>
+
+<!ELEMENT enrollment-date (#PCDATA)>
+<!ELEMENT graduation-date (#PCDATA)>
+
+<!-- ======================================================
+  The contacts container must contain an email, phone
+  number, and a name container.
+  ======================================================-->
+<!ELEMENT contacts (email, phone, name)>
+
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+
+<!-- ======================================================
+  The name container must contain a first, middle, last,
+  and preferred name.
+  ======================================================-->
+<!ELEMENT name (first-name, middle-name, last-name, preferred-name)>
+
+<!ELEMENT first-name (#PCDATA)>
+<!ELEMENT middle-name (#PCDATA)>
+<!ELEMENT last-name (#PCDATA)>
+<!ELEMENT preferred-name (#PCDATA)>
+
+
+<!ATTLIST id
+        number CDATA #REQUIRED>
