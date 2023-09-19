@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../css/style.css"?>
+
+<students>
+    <h1>Students</h1>
+    <id number="1234567">
+        <enrollment-info>
+            <grade-level>First Year</grade-level>
+            <gpa>4.0</gpa>
+            <advisor>Andy Summers</advisor>
+            <majors>
+                <major>Music</major>
+                <minor>English</minor>
+
+            </majors>
+            <enrollment-status>
+                <time-status>Full-time</time-status>
+                <dates>
+                    <enrollment-date>08-25-1969</enrollment-date>
+                    <graduation-date>05-01-1973</graduation-date>
+                </dates>
+            </enrollment-status>
+        </enrollment-info>
+        <contacts>
+            <email>sting@thepolice.com</email>
+            <phone>212.123.4567</phone>
+            <names>
+                <first-name>Gordon</first-name>
+                <middle-name>Matthew</middle-name>
+                <last-name>Sumner</last-name>
+                <preferred-name>"Sting"</preferred-name>
+            </names>
+        </contacts>
+    </id>
+    <id number="4567890">
+        <enrollment-info>
+            <grade-level></grade-level>
+            <gpa></gpa>
+            <advisor></advisor>
+            <majors>
+                <major></major>
+                <minor></minor>
+
+            </majors>
+            <enrollment-status>
+                <time-status></time-status>
+                <dates>
+                    <enrollment-date></enrollment-date>
+                    <graduation-date></graduation-date>
+                </dates>
+            </enrollment-status>
+        </enrollment-info>
+        <contacts>
+            <email></email>
+            <phone></phone>
+            <names>
+                <first-name></first-name>
+                <middle-name></middle-name>
+                <last-name></last-name>
+                <preferred-name></preferred-name>
+            </names>
+        </contacts>
+    </id>
+</students>
