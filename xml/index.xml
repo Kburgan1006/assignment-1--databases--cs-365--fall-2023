@@ -34,29 +34,29 @@
     </id>
     <id number="4567890">
         <enrollment-info>
-            <grade-level></grade-level>
-            <gpa></gpa>
-            <advisor></advisor>
+            <grade-level>Second Year</grade-level>
+            <gpa>3.0</gpa>
+            <advisor>Chris Cornell</advisor>
             <majors>
-                <major></major>
-                <minor></minor>
+                <major>Philosophy</major>
+                <minor>Music</minor>
 
             </majors>
             <enrollment-status>
-                <time-status></time-status>
+                <time-status>Full-time</time-status>
                 <dates>
-                    <enrollment-date></enrollment-date>
-                    <graduation-date></graduation-date>
+                    <enrollment-date>08-25-1978</enrollment-date>
+                    <graduation-date>05-01-1982</graduation-date>
                 </dates>
             </enrollment-status>
         </enrollment-info>
         <contacts>
-            <email></email>
-            <phone></phone>
+            <email>kim@soundgarden.com</email>
+            <phone>206.123.4567</phone>
             <names>
-                <first-name></first-name>
+                <first-name>Kim</first-name>
                 <middle-name></middle-name>
-                <last-name></last-name>
+                <last-name>Thayil</last-name>
                 <preferred-name></preferred-name>
             </names>
         </contacts>
