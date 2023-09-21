@@ -1,28 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,500;1,6..12,200;1,6..12,500&display=swap');
 
-:root,
+/*
+students
+id
+enrollment info, contacts
+info - grade, gpa, majors+ enrollment status advisor
+majors - major, minor
+enrollment status - time-status, dates
+dates - enrollment date, graduation date
+contacts - email, phone, name
+name - first name, middle name, last naem, preferred name.
+*/
 
 :root,
 :root::before,
-id,
-id::before,
-contact,
-contact::before,
-names,
-names::before,
-names{
-    display: block;
+id {
+  display: block;
 }
 
 :root {
-    margin: 0 autol
-    width 1200px;
-    font: 200 16px 'Nunito Sans', serif;
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif;
 }
 
 :root::before {
-    content: 'Students';
-    text-align: center;
-    font-size: large;
-    margin: 24px 0;
+  content: 'Students';
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 24px 0;
+}
+
+id::before {
+  content: '' attr(number) '';
+  font-size: 2rem;
+}
+
+id {
+  margin: 0 0 24px;
+}
+
+grade {
+  display: none;
+}
+
+first-name {
+  margin: 4px 0;
+  font-style: italic;
+  display: inline-block;
+}
+
+first-name {
+  display: inline-block;
+}
+
+first-name::before {
+  content: '(';
+}
+
+first-name::after {
+  content: ')';
+}
+
+email {
+  display: flex;
+}
+
+email::before {
+  content: '' attr(email) ' — ';
+}
+
+phone {
+  font-weight: 500;
+}
+
+phone::after {
+  font-weight: 200;
+  content: ', ';
+}
+
+last-name::after {
+  content: ' | ';
+}
+
+gpa::before {
+  content: 'Composed by ';
+}
+
+gpa::after {
+  content: ' | ';
 }

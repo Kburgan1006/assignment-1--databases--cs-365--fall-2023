@@ -1,0 +1,59 @@
+{
+    "h1": "Students",
+    "id": [
+        {
+            "number" : "1234567",
+            "enrollment-info": {
+                "grade-level": "First-year",
+                "gpa": "4.0",
+                "advisor": "Andy Summers",
+                "majors": {
+                    "major": "Music",
+                    "minor": "English"},
+                "enrollment-status": {
+                    "time-status": "a",
+                    "dates": {
+                        "enrollment-date":"a",
+                        "graduation-date": "a"}
+                    }
+                },
+            "contacts": {
+                "email":"a",
+                "phone":"a",
+                "names": {
+                    "first-name":"a",
+                    "middle-name":"a",
+                    "last-name":"a",
+                    "preferred-name":"a"
+                }
+            }
+        },
+        {
+            "number": "4567890",
+            "enrollment-info": {
+                "grade-level": "First-year",
+                "gpa": "4.0",
+                "advisor": "Andy Summers",
+                "majors": {
+                    "major": "Music",
+                    "minor": "English"},
+                "enrollment-status": {
+                    "time-status": "a",
+                    "dates": {
+                        "enrollment-date":"a",
+                        "graduation-date": "a"}
+                    }
+                },
+            "contacts": {
+                "email":"a",
+                "phone":"a",
+                "names": {
+                    "first-name":"a",
+                    "middle-name": [],
+                    "last-name":"a",
+                    "preferred-name": []
+                }
+            }
+        }
+    ]
+}
