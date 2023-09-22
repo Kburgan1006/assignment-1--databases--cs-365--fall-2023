@@ -2,8 +2,17 @@
 <?xml-stylesheet type="text/css" href="C:\Users\burga\OneDrive\Executible Program Files\GitHub\assignment-1--databases--cs-365--fall-2023\xml\css\style.css"?>
 
 <students>
-    <h1>Students</h1>
     <id number="1234567">
+        <contacts>
+            <name>
+                <first-name>Gordon</first-name>
+                <middle-name>Matthew</middle-name>
+                <last-name>Sumner</last-name>
+                <preferred-name>"Sting"</preferred-name>
+            </name>
+            <email>sting@thepolice.com</email>
+            <phone>212.123.4567</phone>
+        </contacts>
         <enrollment-info>
             <grade-level>First Year</grade-level>
             <gpa>4.0</gpa>
@@ -21,18 +30,18 @@
                 </dates>
             </enrollment-status>
         </enrollment-info>
-        <contacts>
-            <email>sting@thepolice.com</email>
-            <phone>212.123.4567</phone>
-            <names>
-                <first-name>Gordon</first-name>
-                <middle-name>Matthew</middle-name>
-                <last-name>Sumner</last-name>
-                <preferred-name>"Sting"</preferred-name>
-            </names>
-        </contacts>
     </id>
     <id number="4567890">
+        <contacts>
+            <name>
+                <first-name>Kim</first-name>
+                <middle-name></middle-name>
+                <last-name>Thayil</last-name>
+                <preferred-name></preferred-name>
+            </name>
+            <email>kim@soundgarden.com</email>
+            <phone>206.123.4567</phone>
+        </contacts>
         <enrollment-info>
             <grade-level>Second Year</grade-level>
             <gpa>3.0</gpa>
@@ -50,15 +59,5 @@
                 </dates>
             </enrollment-status>
         </enrollment-info>
-        <contacts>
-            <email>kim@soundgarden.com</email>
-            <phone>206.123.4567</phone>
-            <names>
-                <first-name>Kim</first-name>
-                <middle-name></middle-name>
-                <last-name>Thayil</last-name>
-                <preferred-name></preferred-name>
-            </names>
-        </contacts>
     </id>
 </students>

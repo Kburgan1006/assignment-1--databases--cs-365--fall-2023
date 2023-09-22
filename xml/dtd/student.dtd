@@ -10,7 +10,7 @@
   The id container element must contain erollement-info and
   contacts info.
   ======================================================-->
-<!ELEMENT id (enrollment-info, contacts)>
+<!ELEMENT id (contacts, enrollment-info)>
 
 <!-- ======================================================
   The erollment-info container element must contain 
@@ -53,7 +53,7 @@
   The contacts container must contain an email, phone
   number, and a name container.
   ======================================================-->
-<!ELEMENT contacts (email, phone, name)>
+<!ELEMENT contacts (name, email, phone)>
 
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT phone (#PCDATA)>

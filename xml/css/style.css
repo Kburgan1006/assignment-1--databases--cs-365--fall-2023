@@ -12,10 +12,12 @@ contacts - email, phone, name
 name - first name, middle name, last naem, preferred name.
 */
 
-:root,
-:root::before,
-id {
+:root::before {
   display: block;
+  content: "Students";
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 24px 0;
 }
 
 :root {
@@ -24,69 +26,135 @@ id {
   font: 200 16px 'Nunito Sans', serif;
 }
 
-:root::before {
-  content: 'Students';
-  text-align: center;
-  font-size: 2.5rem;
-  margin: 24px 0;
-}
-
 id::before {
-  content: '' attr(number) '';
-  font-size: 2rem;
+  display:block;
+  content:attr(number);
+  font-size:1.5rem;
+  text-align: left;
 }
 
 id {
-  margin: 0 0 24px;
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif;
 }
 
-grade {
-  display: none;
-}
-
-first-name {
-  margin: 4px 0;
-  font-style: italic;
+name::before{
   display: inline-block;
+  content: "Name: ";
+  font-size:1.5rem;
+  text-align: left;
+  margin: 20px;
 }
 
-first-name {
-  display: inline-block;
+name {
+  margin: 20px ;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif;
 }
 
-first-name::before {
-  content: '(';
-}
-
-first-name::after {
-  content: ')';
+email::before{
+  display:block;
+  content: "Contacts: "
 }
 
 email {
-  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif;
 }
 
-email::before {
-  content: '' attr(email) ' — ';
+phone::before {
+  content:icon;
+
 }
 
 phone {
-  font-weight: 500;
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif;
 }
 
-phone::after {
-  font-weight: 200;
-  content: ', ';
+grade-level::before {
+  
+  content:icon;
 }
 
-last-name::after {
-  content: ' | ';
+grade-level {
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif;
 }
 
 gpa::before {
-  content: 'Composed by ';
+  content:icon;
 }
 
-gpa::after {
-  content: ' | ';
+gpa {
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif;
+}
+
+advisor::before {
+  content:icon;
+}
+
+advisor {
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif;
+}
+
+major::before {
+  content:icon;
+}
+
+major {
+  display: inline-block;
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif;
+}
+
+minor::before {
+  content:icon;
+}
+
+minor {
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif;
+}
+
+time-status::before {
+  content:icon;
+}
+
+time-status {
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif;
+}
+
+enrollment-date::before {
+  display:inline-block;
+  margin-block-start: auto;
+  content: "Enrollment Date: ";
+}
+
+enrollment-date {
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif;
+}
+
+graduation-date::before {
+  content:icon;
+}
+
+graduation-date {
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif;
 }
