@@ -39,23 +39,71 @@ id {
   font: 200 16px 'Nunito Sans', serif;
 }
 
-name::before{
-  display: inline-block;
-  content: "Name: ";
-  font-size:1.5rem;
+contacts::before{
+  display: block;
+  margin-top: 1em;
+  margin-left: 1em;
+  content: "Contacts:";
+  font-size:1 rem;
   text-align: left;
-  margin: 20px;
+  margin: 20px 0;
 }
 
-name {
-  margin: 20px ;
+
+preferred-name::before{
+  display: inline-block;
+  margin-left: 1em;
+  content: "Preferred Name:";
+  padding-right: 10px;
+  font-size:1rem;
+  text-align: left;
+  margin: 0 auto;
+}
+
+preferred-name {
+  margin-left: 20px;
+  margin: 20px;
   width: 1200px;
   font: 200 16px 'Nunito Sans', serif;
 }
 
+preferred-name::after{
+  content: '\a';
+  white-space: pre;
+}
+
+legal-name::before{
+  display: inline-block;
+  margin-left: 1em;
+  margin-top: 1em;
+  content: "Legal Name: ";
+  padding-right: 9px;
+  font-size:1rem;
+  text-align: left;
+  margin: 0 auto;
+}
+
+legal-name {
+  margin-left: 20px;
+  margin: 20px;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif;
+}
+
+legal-name::after{
+  content: '\a';
+  white-space: pre;
+}
+
 email::before{
-  display:block;
-  content: "Contacts: "
+  display: inline-block;
+  margin-left: 1em;
+  margin-top: 1em;
+  content: "Email:";
+  padding-right: 10px;
+  font-size:1rem;
+  text-align: left;
+  margin: 0 auto;
 }
 
 email {
@@ -64,9 +112,20 @@ email {
   font: 200 16px 'Nunito Sans', serif;
 }
 
-phone::before {
-  content:icon;
+email::after{
+  content: '\a';
+  white-space: pre;
+}
 
+phone::before {
+  display: inline-block;
+  margin-left: 1em;
+  margin-top: 1em;
+  content: "Phone Number:";
+  padding-right: 10px;
+  font-size:1rem;
+  text-align: left;
+  margin: 0 auto;
 }
 
 phone {
@@ -75,9 +134,20 @@ phone {
   font: 200 16px 'Nunito Sans', serif;
 }
 
+phone::after{
+  content: '\a';
+  white-space: pre;
+}
+
 grade-level::before {
-  
-  content:icon;
+  display: inline-block;
+  margin-left: 1em;
+  margin-top: 1em;
+  content: "Year:";
+  padding-right: 10px;
+  font-size:1rem;
+  text-align: left;
+  margin: 0 auto;
 }
 
 grade-level {
@@ -86,8 +156,20 @@ grade-level {
   font: 200 16px 'Nunito Sans', serif;
 }
 
+grade-level::after{
+  content: '\a';
+  white-space: pre;
+}
+
 gpa::before {
-  content:icon;
+  display: inline-block;
+  margin-left: 1em;
+  margin-top: 1em;
+  content: "GPA:";
+  padding-right: 10px;
+  font-size:1rem;
+  text-align: left;
+  margin: 0 auto;
 }
 
 gpa {
@@ -96,8 +178,20 @@ gpa {
   font: 200 16px 'Nunito Sans', serif;
 }
 
+gpa:after{
+  content: '\a';
+  white-space: pre;
+}
+
 advisor::before {
-  content:icon;
+  display: inline-block;
+  margin-left: 1em;
+  margin-top: 1em;
+  content: "Advisor:";
+  padding-right: 10px;
+  font-size:1rem;
+  text-align: left;
+  margin: 0 auto;
 }
 
 advisor {
@@ -107,7 +201,14 @@ advisor {
 }
 
 major::before {
-  content:icon;
+  display: inline-block;
+  margin-left: 1em;
+  margin-top: 1em;
+  content: "Major:";
+  padding-right: 10px;
+  font-size:1rem;
+  text-align: left;
+  margin: 0 auto;
 }
 
 major {
@@ -118,7 +219,14 @@ major {
 }
 
 minor::before {
-  content:icon;
+  display: inline-block;
+  margin-left: 1em;
+  margin-top: 1em;
+  content: "Minor:";
+  padding-right: 10px;
+  font-size:1rem;
+  text-align: left;
+  margin: 0 auto;
 }
 
 minor {
@@ -127,8 +235,20 @@ minor {
   font: 200 16px 'Nunito Sans', serif;
 }
 
+minor::after{
+  content: '\a';
+  white-space: pre;
+}
+
 time-status::before {
-  content:icon;
+  display: inline-block;
+  margin-left: 1em;
+  margin-top: 1em;
+  content: "Time Status:";
+  padding-right: 10px;
+  font-size:1rem;
+  text-align: left;
+  margin: 0 auto;
 }
 
 time-status {
@@ -137,10 +257,20 @@ time-status {
   font: 200 16px 'Nunito Sans', serif;
 }
 
+time-status::after{
+  content: '\a';
+  white-space: pre;
+}
+
 enrollment-date::before {
-  display:inline-block;
-  margin-block-start: auto;
-  content: "Enrollment Date: ";
+  display: inline-block;
+  margin-left: 1em;
+  margin-top: 1em;
+  content: "Enrollment Date:";
+  padding-right: 10px;
+  font-size:1rem;
+  text-align: left;
+  margin: 0 auto;
 }
 
 enrollment-date {
@@ -149,12 +279,29 @@ enrollment-date {
   font: 200 16px 'Nunito Sans', serif;
 }
 
+enrollment-date::after{
+  content: '\a';
+  white-space: pre;
+}
+
 graduation-date::before {
-  content:icon;
+  display: inline-block;
+  margin-left: 1em;
+  margin-top: 1em;
+  content: "Graduation Date:";
+  padding-right: 10px;
+  font-size:1rem;
+  text-align: left;
+  margin: 0 auto;
 }
 
 graduation-date {
   margin: 0 auto;
   width: 1200px;
   font: 200 16px 'Nunito Sans', serif;
+}
+
+graduation-date::after{
+  content: '\a';
+  white-space: pre;
 }

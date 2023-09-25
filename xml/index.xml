@@ -5,10 +5,12 @@
     <id number="1234567">
         <contacts>
             <name>
-                <first-name>Gordon</first-name>
-                <middle-name>Matthew</middle-name>
-                <last-name>Sumner</last-name>
-                <preferred-name>"Sting"</preferred-name>
+                <preferred-name>Sting</preferred-name>
+                <legal-name>
+                    <first-name>Gordon</first-name>
+                    <middle-name>Matthew</middle-name>
+                    <last-name>Sumner</last-name>
+                </legal-name>
             </name>
             <email>sting@thepolice.com</email>
             <phone>212.123.4567</phone>
@@ -34,10 +36,10 @@
     <id number="4567890">
         <contacts>
             <name>
+                <preferred-name></preferred-name>
                 <first-name>Kim</first-name>
                 <middle-name></middle-name>
                 <last-name>Thayil</last-name>
-                <preferred-name></preferred-name>
             </name>
             <email>kim@soundgarden.com</email>
             <phone>206.123.4567</phone>

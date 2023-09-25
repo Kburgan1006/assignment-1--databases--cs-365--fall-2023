@@ -1,7 +1,8 @@
 {
-    "h1": "Students",
-    "id": [
-        {
+    "students": 
+    {
+        "id": 
+        [{
             "number" : "1234567",
             "enrollment-info": {
                 "grade-level": "First-year",
@@ -54,6 +55,6 @@
                     "preferred-name": []
                 }
             }
-        }
-    ]
+        }]
+    } 
 }

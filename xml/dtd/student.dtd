@@ -62,12 +62,16 @@
   The name container must contain a first, middle, last,
   and preferred name.
   ======================================================-->
-<!ELEMENT name (first-name, middle-name, last-name, preferred-name)>
+<!ELEMENT name (preferred-name, legal-name)>
+
+<!ELEMENT preferred-name (#PCDATA)>
+
+<!ELEMENT legal-name (first-name, middle-name, last-name)>
 
 <!ELEMENT first-name (#PCDATA)>
 <!ELEMENT middle-name (#PCDATA)>
 <!ELEMENT last-name (#PCDATA)>
-<!ELEMENT preferred-name (#PCDATA)>
+
 
 
 <!ATTLIST id
