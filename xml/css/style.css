@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,500;1,6..12,200;1,6..12,500&display=swap');
 
-/*
-students
-id
-enrollment info, contacts
-info - grade, gpa, majors+ enrollment status advisor
-majors - major, minor
-enrollment status - time-status, dates
-dates - enrollment date, graduation date
-contacts - email, phone, name
-name - first name, middle name, last naem, preferred name.
-*/
-
 :root::before {
   display: block;
   content: "Students";
@@ -27,6 +15,8 @@ name - first name, middle name, last naem, preferred name.
 }
 
 id::before {
+  content: '\a';
+  white-space: pre;
   display:block;
   content:attr(number);
   font-size:1.5rem;
@@ -304,4 +294,5 @@ graduation-date {
 graduation-date::after{
   content: '\a';
   white-space: pre;
+  margin-bottom: 100px;
 }
