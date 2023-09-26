@@ -13,6 +13,33 @@
 <!ELEMENT id (contacts, enrollment-info)>
 
 <!-- ======================================================
+  The contacts container must contain an email, phone
+  number, and a name container.
+  ======================================================-->
+  <!ELEMENT contacts (name, email, phone)>
+
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT phone (#PCDATA)>
+  
+  <!-- ======================================================
+    The name container must contain a preferred name and a
+    legal name container.
+    ======================================================-->
+  <!ELEMENT name (preferred-name, legal-name)>
+  
+  <!ELEMENT preferred-name (#PCDATA)>
+  
+  <!-- ======================================================
+    The legal-name container must contain a first, middle, and
+    last name.
+    ======================================================-->
+  <!ELEMENT legal-name (first-name, middle-name, last-name)>
+  
+  <!ELEMENT first-name (#PCDATA)>
+  <!ELEMENT middle-name (#PCDATA)>
+  <!ELEMENT last-name (#PCDATA)>
+
+<!-- ======================================================
   The erollment-info container element must contain 
   grade-level, gpa, one or more majors, enrollement-status,
   and an advisor.
@@ -48,31 +75,3 @@
 
 <!ELEMENT enrollment-date (#PCDATA)>
 <!ELEMENT graduation-date (#PCDATA)>
-
-<!-- ======================================================
-  The contacts container must contain an email, phone
-  number, and a name container.
-  ======================================================-->
-<!ELEMENT contacts (name, email, phone)>
-
-<!ELEMENT email (#PCDATA)>
-<!ELEMENT phone (#PCDATA)>
-
-<!-- ======================================================
-  The name container must contain a first, middle, last,
-  and preferred name.
-  ======================================================-->
-<!ELEMENT name (preferred-name, legal-name)>
-
-<!ELEMENT preferred-name (#PCDATA)>
-
-<!ELEMENT legal-name (first-name, middle-name, last-name)>
-
-<!ELEMENT first-name (#PCDATA)>
-<!ELEMENT middle-name (#PCDATA)>
-<!ELEMENT last-name (#PCDATA)>
-
-
-
-<!ATTLIST id
-        number CDATA #REQUIRED>

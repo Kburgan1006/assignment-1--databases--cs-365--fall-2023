@@ -36,10 +36,12 @@
     <id number="4567890">
         <contacts>
             <name>
-                <preferred-name></preferred-name>
-                <first-name>Kim</first-name>
-                <middle-name></middle-name>
-                <last-name>Thayil</last-name>
+                <preferred-name>N/A</preferred-name>
+                <legal-name>
+                    <first-name>Kim</first-name>
+                    <middle-name></middle-name>
+                    <last-name>Thayil</last-name>
+                </legal-name>
             </name>
             <email>kim@soundgarden.com</email>
             <phone>206.123.4567</phone>

@@ -1,60 +1,68 @@
 {
-    "students": 
+    "students":
     {
-        "id": 
+        "id":
         [{
             "number" : "1234567",
+            "contacts": {
+                "names": {
+                    "preferred-name":"Sting",
+                    "legal-name": {
+                        "first-name":"Gordon",
+                        "middle-name":"Matthew",
+                        "last-name":"Sumner"
+                    }
+                },
+                "email":"sting@thepolice.com",
+                "phone":"212.123.4567"
+            },
             "enrollment-info": {
                 "grade-level": "First-year",
                 "gpa": "4.0",
                 "advisor": "Andy Summers",
                 "majors": {
                     "major": "Music",
-                    "minor": "English"},
-                "enrollment-status": {
-                    "time-status": "a",
-                    "dates": {
-                        "enrollment-date":"a",
-                        "graduation-date": "a"}
-                    }
+                    "minor": "English"
                 },
-            "contacts": {
-                "email":"a",
-                "phone":"a",
-                "names": {
-                    "first-name":"a",
-                    "middle-name":"a",
-                    "last-name":"a",
-                    "preferred-name":"a"
+                "enrollment-status": {
+                    "time-status": "Full-time",
+                    "dates": {
+                        "enrollment-date":"08-25-1969",
+                        "graduation-date": "05-01-1973"
+                    }
                 }
             }
         },
         {
             "number": "4567890",
-            "enrollment-info": {
-                "grade-level": "First-year",
-                "gpa": "4.0",
-                "advisor": "Andy Summers",
-                "majors": {
-                    "major": "Music",
-                    "minor": "English"},
-                "enrollment-status": {
-                    "time-status": "a",
-                    "dates": {
-                        "enrollment-date":"a",
-                        "graduation-date": "a"}
+            "contacts": {
+                "names": {
+                    "preferred-name":"N/A",
+                    "legal-name": {
+                        "first-name":"Kim",
+                        "middle-name":"",
+                        "last-name":"Thayil"
                     }
                 },
-            "contacts": {
-                "email":"a",
-                "phone":"a",
-                "names": {
-                    "first-name":"a",
-                    "middle-name": [],
-                    "last-name":"a",
-                    "preferred-name": []
+                "email":"kim@soundgarden.com",
+                "phone":"206.123.4567"
+            },
+            "enrollment-info": {
+                "grade-level": "Second-year",
+                "gpa": "3.0",
+                "advisor": "Chris Cornell",
+                "majors": {
+                    "major": "Philosophy",
+                    "minor": "Music"
+                },
+                "enrollment-status": {
+                    "time-status": "Full-time",
+                    "dates": {
+                        "enrollment-date":"08-25-1978",
+                        "graduation-date": "05-01-1982"
+                    }
                 }
             }
         }]
-    } 
+    }
 }
